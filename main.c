@@ -6,9 +6,12 @@
 
 void HostFs_InstallHooks();
 
+
 void (*plugin_entry)() = (void*)plugin_entry_addr;
 void __start()
 {
 	HostFs_InstallHooks();
+#ifdef SPEC2
 	plugin_entry();
+#endif
 }
