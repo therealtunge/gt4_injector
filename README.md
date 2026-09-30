@@ -14,6 +14,7 @@ doesnt support patching files from mpeg/ or any sound files, please repack .VOL 
 
 # notice
 the code was made by Nenkai, i simply made it build on linux, all credits go to him
+
 no ai was used in the making of this project
 
 # legal
