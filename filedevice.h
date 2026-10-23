@@ -1,18 +1,17 @@
-#pragma once
 
 typedef enum
 {
-  FileError_OK = 0x0,
-  FileError_CANCEL = 0x1,
-  FileError_NOTSUPPORT = 0x2,
-  FileError_NOMEMORY = 0x3,
-  FileError_NODEVICE = 0x4,
-  FileError_IO = 0x5,
-  FileError_DEVICEFULL = 0x6,
-  FileError_READONLY = 0x7,
-  FileError_NOTPERMITTED = 0x8,
-  FileError_NOTFOUND = 0x9,
-  FileError_ILLEGAL = 0xA,
+	FileError_OK = 0x0,
+	FileError_CANCEL = 0x1,
+	FileError_NOTSUPPORT = 0x2,
+	FileError_NOMEMORY = 0x3,
+	FileError_NODEVICE = 0x4,
+	FileError_IO = 0x5,
+	FileError_DEVICEFULL = 0x6,
+	FileError_READONLY = 0x7,
+	FileError_NOTPERMITTED = 0x8,
+	FileError_NOTFOUND = 0x9,
+	FileError_ILLEGAL = 0xA,
 } FileError;
 
 typedef struct UnitArena
@@ -114,32 +113,32 @@ typedef struct FileInternalStreamDefault
 ///////////////////////////////////////////////
 typedef struct VolumeEntryTypeInfo
 {
-  int Status;
-  int NodeID;
-  int PageOffset;
-  int field_C;
-  long long ModifiedDate;
-  int CompressedSize;
-  int RealSize;
-  char EntryType;
+	int Status;
+	int NodeID;
+	int PageOffset;
+	int field_C;
+	long long ModifiedDate;
+	int CompressedSize;
+	int RealSize;
+	char EntryType;
 } VolumeEntryTypeInfo;
 
 typedef struct PageManagerUnk
 {
-  int a;
-  int b;
-  int c;
-  int d;
-  int e;
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
 } PageManagerUnk;
 
 typedef struct PageManager
 {
-  void* vtable;
-  char *HeaderBuffer;
-  int field_8;
-  int RoInflator;
-  PageManagerUnk field_0x10;
+	void* vtable;
+	char *HeaderBuffer;
+	int field_8;
+	int RoInflator;
+	PageManagerUnk field_0x10;
 } PageManager;
 
 ////////////////////////////////////////

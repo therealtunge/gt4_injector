@@ -5,8 +5,8 @@ a = f.read()
 b = ""
 
 print("you must be using GT4 OPB (NTSC-U) or GT4 Spec II to use gt4_injector!")
-pcsx2_folder = input("where is your PCSX2 cheats folder? (press enter to auto-detect)")
-is_spec2 = input("are you using GT4 Spec2? [y/n]")
+pcsx2_folder = input("where is your PCSX2 cheats folder? (press enter to auto-detect) ")
+is_spec2 = input("are you using GT4 Spec2? [y/n] ")
 
 if is_spec2 == "y":
 	is_spec2 = True

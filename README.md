@@ -2,7 +2,6 @@
 GT4Hooks, patched to work with Linux
 
 # usage
-**if using GT4 Spec2, add -DSPEC2 to CFLAGS in makefile**
 `make`, then `python build_pnach.py`
 extract GT4.vol to `vol_extract` folder in the same directory as the game ISO
 in PCSX2, enable HostFS, dev ram, and cheats for GT4
@@ -13,8 +12,7 @@ launch the game, do your patches, and enjoy!
 doesnt support patching files from mpeg/ or any sound files, please repack .VOL for that
 
 # notice
-the code was made by Nenkai, i simply made it build on linux, all credits go to him
-
+the code was made by Nenkai, i simply made it build on linux (or any os for that matter :P), all credits go to him
 no ai was used in the making of this project
 
 # legal
